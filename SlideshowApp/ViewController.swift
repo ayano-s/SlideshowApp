@@ -91,6 +91,16 @@ class ViewController: UIViewController {
         
         // 遷移先のExpansionViewControllerで宣言している変数に値を代入して渡す
         expansionViewController.image = imageArray[imageIndex]
+
+        //スライドショーが動いている時は止める
+        if timer != nil {
+            self.timer.invalidate()
+            self.timer_sec = 0
+            self.timer = nil
+            playButton.setTitle("再生", for: .normal)
+            backButton.isEnabled = true
+            nextButton.isEnabled = true
+        }
     }
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
