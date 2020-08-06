@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  SlideshowApp
 //
-//  Created by 齋藤　綾乃 on 2020/08/04.
+//  Created by ayano-s on 2020/08/04.
 //  Copyright © 2020 ayano-s. All rights reserved.
 //
 
