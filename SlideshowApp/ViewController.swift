@@ -35,9 +35,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         imageView.image = imageArray[imageIndex]
-        playButton.setTitle("再生", for: .normal)
-        //最初のボタンのテキストはStoryboard上で直接指定しておいた方がよい？
-
     }
     
     @IBAction func play(_ sender: Any) {
@@ -69,7 +66,6 @@ class ViewController: UIViewController {
     
     @IBAction func next(_ sender: Any) {
         //画像が最後まできた時
-        //画像の数が変わることを想定する場合最後の配列の値をどうやって指定するか？
         if imageIndex == imageArray.count - 1 {
             imageIndex = 0
         //それ以外
@@ -83,7 +79,6 @@ class ViewController: UIViewController {
         self.timer_sec += 2.0
         if imageIndex == imageArray.count - 1 {
             imageIndex = 0
-        //それ以外
         } else {
             imageIndex += 1
         }

@@ -16,24 +16,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="zuD-jl-4V2">
-                                <rect key="frame" x="78" y="464" width="258" height="50"/>
+                                <rect key="frame" x="100.5" y="464" width="213" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfn-wb-cPv">
-                                        <rect key="frame" x="0.0" y="10" width="46" height="30"/>
+                                        <rect key="frame" x="0.0" y="10" width="31" height="30"/>
                                         <state key="normal" title="戻る"/>
                                         <connections>
                                             <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1RE-31-cH8"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQw-Tx-sck">
-                                        <rect key="frame" x="106" y="10" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <rect key="frame" x="91" y="10" width="31" height="30"/>
+                                        <state key="normal" title="再生"/>
                                         <connections>
                                             <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fL4-Ca-qsH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1r-RO-xg6">
-                                        <rect key="frame" x="212" y="10" width="46" height="30"/>
+                                        <rect key="frame" x="182" y="10" width="31" height="30"/>
                                         <state key="normal" title="進む"/>
                                         <connections>
                                             <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="meB-ji-s23"/>
